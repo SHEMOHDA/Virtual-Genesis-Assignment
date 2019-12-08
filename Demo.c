@@ -19,4 +19,5 @@ int sumarr(const int* parr, int n) {
   int i, sum=0;
   for(i=0;i<n;i++)
     sum+=*parr++;   //sum+=parr[i]  //sum+=*(parr+i)
+  return sum;
 }
