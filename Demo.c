@@ -1,6 +1,6 @@
 #include<stdio.h>
-int i;
 int main() {
+  int i;
   int n=10;
   int arr[10];
   fill(arr,n);
